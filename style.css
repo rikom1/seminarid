@@ -1,0 +1,63 @@
+body {
+    background-color: #edf5f9;
+    color: #263844;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1 {
+    color: #185c85;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #185c85;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+a {
+    color: #185c85;
+}
+
+.veerud {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.vasak, .parem {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 250px;
+    object-fit: cover;
+    border: 3px solid #185c85;
+    box-shadow: 4px 4px 8px #999;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #7893a3;
+    padding: 7px;
+    text-align: left;
+}
+
+th {
+    background-color: #c9e3f1;
+    font-weight: bold;
+}
